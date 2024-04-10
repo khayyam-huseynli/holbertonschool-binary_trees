@@ -38,6 +38,4 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 size_t recursive_height(const binary_tree_t *tree);
 size_t binary_tree_height(const binary_tree_t *tree);
 
-
-
 #endif
