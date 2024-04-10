@@ -43,5 +43,6 @@ size_t binary_tree_size(const binary_tree_t *tree);
 int binary_tree_is_leaf(const binary_tree_t *node);
 size_t binary_tree_leaves(const binary_tree_t *tree);
 int binary_tree_is_parent(const binary_tree_t *node);
+size_t recursive_height(const binary_tree_t *tree);
 
 #endif
